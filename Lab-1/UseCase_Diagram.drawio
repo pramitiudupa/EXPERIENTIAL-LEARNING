@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Use-Case Diagram" id="uc27">
+    <mxGraphModel dx="1100" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="title" value="Use-Case Diagram &#8211; Warehouse Inventory &amp; Pallet Location Tracker" style="text;html=1;align=center;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="10" width="700" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Problem Statement #27 &#183; Pramiti Ragavendra Udupa &#183; PES1UG24CS331 &#183; PES University, Dept. of CSE" style="text;html=1;align=center;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="180" y="36" width="700" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="boundary" value="Warehouse Inventory &amp; Pallet Location Tracker" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="280" y="62" width="530" height="720" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a1" value="Warehouse Operator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="132" width="30" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" value="Barcode / RFID Scanner" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="362" width="30" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" value="Logistics Supervisor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="592" width="30" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc01" value="UC-01&#10;Register inbound pallet" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="92" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc02" value="UC-02&#10;Store pallet in bin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="212" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc03" value="UC-03&#10;Validate rack load capacity" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="212" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc04" value="UC-04&#10;Suggest alternative bin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="322" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05" value="UC-05&#10;Dispatch pallet" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="442" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc06" value="UC-06&#10;Log stock movement" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="442" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc07" value="UC-07&#10;Search pallet by SKU" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="562" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc08" value="UC-08&#10;Manage movement log records" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="672" width="200" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e1" style="endArrow=none;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="a1" target="uc01"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" style="endArrow=none;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="a1" target="uc02"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e3" style="endArrow=none;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="a1" target="uc05"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e4" style="endArrow=none;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="a1" target="uc07"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e5" style="endArrow=none;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="a2" target="uc01"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e6" style="endArrow=none;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="a2" target="uc05"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e7" style="endArrow=none;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="a3" target="uc07"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e8" style="endArrow=none;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="a3" target="uc08"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="i1" value="&#171;include&#187;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="uc02" target="uc03"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="i2" value="&#171;include&#187;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="uc05" target="uc06"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="i3" value="&#171;include&#187;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.9;exitY=0.9;entryX=0;entryY=0.5;" edge="1" parent="1" source="uc02" target="uc06"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="x1" value="&#171;extend&#187;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0;exitY=0.5;entryX=0.9;entryY=0.9;" edge="1" parent="1" source="uc04" target="uc02"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
